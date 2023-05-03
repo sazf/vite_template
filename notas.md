@@ -26,4 +26,8 @@
 
 ### Comando docker
 
-docker run --rm -it -p 5173:5173 -v C:\\dev\\React\\vite_plantilla\\vite_template:/usr/src/app node:18.16-slim bash
+- docker run --rm -it -p 5173:5173 -v C:\\dev\\React\\vite_plantilla\\vite_template:/usr/src/app node:18.16-slim bash
+
+### para lanzar el contenedor
+
+- docker-compose up
