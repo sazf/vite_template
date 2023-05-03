@@ -20,10 +20,10 @@
 
 - agregar package-lock.json al .gitignore
 
-### Configurar el prettier con el standard
-
-- npm install prettier-config-standard -D
-
 ### Para aplicar standard a SRC
 
 - npx standard --fix ./src
+
+### Comando docker
+
+docker run --rm -it -p 5173:5173 -v C:\\dev\\React\\vite_plantilla\\vite_template:/usr/src/app node:18.16-slim bash
