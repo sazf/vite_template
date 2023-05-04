@@ -7,12 +7,12 @@ export default {
       backgroundColor: (theme) => ({
         ...theme("colors"),
         primary: "#bae6fd",
-        secondary: "#7dd3fc",
+        secondary: "#67e8f9",
         terciary: "#60a5fa",
       }),
       textColor: {
-        primary: "#bae6fd",
-        secondary: "#7dd3fc",
+        primary: "#06b6d4",
+        secondary: "#22d3ee",
         terciary: "#60a5fa",
       },
       fontFamily:{
